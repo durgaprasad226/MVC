@@ -1,0 +1,13 @@
+﻿@model STModelViews.Models.Product
+
+<h2>Product Details</h2>
+<dl>
+    <dt>Product Id</dt>
+    <dd>@Model.ProductId</dd>
+    <dt>Name</dt>
+    <dd>@Model.Name</dd>
+    <dt>Price</dt>
+    <dd>@Model.Price</dd>
+</dl>
+</br>
+@Html.ActionLink("Back to Index","Index")

@@ -1,0 +1,7 @@
+﻿@model List<PartialViews2.Models.Places>
+
+<h2 align="center">Places Catalog</h2>
+@foreach(var place in Model)
+{
+    @Html.Partial("ProtoType", place)
+}

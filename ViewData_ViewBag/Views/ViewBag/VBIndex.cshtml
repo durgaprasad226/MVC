@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "VBIndex";
+}
+
+<h2>VBIndex</h2>
+@ViewBag.Name </br>
+@ViewBag.Age </br>
+<h3>My hobbies are</h3>
+<ol>
+    @foreach(var hobbies in ViewBag.Hobbies)
+            {
+                <li>@hobbies</li>
+            }
+</ol>

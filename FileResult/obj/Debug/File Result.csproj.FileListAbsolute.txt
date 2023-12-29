@@ -1,0 +1,2 @@
+C:\Users\MalathumkarDurgaPras\source\repos\ViewData_ViewBag\FileResult\obj\Debug\File Result.csproj.AssemblyReference.cache
+C:\Users\MalathumkarDurgaPras\source\repos\ViewData_ViewBag\FileResult\obj\Debug\File Result.csproj.CoreCompileInputs.cache

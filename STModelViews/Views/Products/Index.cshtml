@@ -1,0 +1,33 @@
+﻿@model IEnumerable<STModelViews.Models.Product>
+
+<h2>Products List</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .MVC{
+            background-color:skyblue;
+        }
+    </style>
+</head>
+<body>
+    <table class="MVC" width="400" border="4">
+        <tr>
+            <th>Product Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>View Details</th>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>@Html.ActionLink("Show Details", "Details", new { id = item.ProductId })</td>
+            </tr>
+        }
+            </tr>
+        </table>
+    </body>
+</html>

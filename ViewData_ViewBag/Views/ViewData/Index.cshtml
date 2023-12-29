@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+Hello! @ViewData["name"] </br>
+My age is @ViewData["age"] </br>
+<h2>My Hobbies are</h2>
+
+<ol>
+    @foreach(var hobbies in (List<string>)ViewData["Hobbies"])
+    {
+        <li>@hobbies</li>
+    }
+</ol>

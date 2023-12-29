@@ -1,0 +1,26 @@
+﻿@model PartialViews2.Models.Places
+
+<table width="100" border="4" align="center">
+    <tr>
+        <td>
+            <img src='@Url.Content(Model.Image)' width="200" height="200" />
+        </td>
+        <td>
+            <!----<table frame="box" rules="all" align="center">-->
+            <table width="250" border="4" align="center">
+                <tr>
+                    <td>Place ID</td>
+                    <td>@Model.Id</td>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>@Model.Name</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>@Model.Location</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
